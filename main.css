@@ -1,0 +1,498 @@
+/*MENU*/
+
+
+
+/*The blank parts of the menu block*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3a90b5;
+  width: 100%;
+  padding: 15px 0px;
+}
+
+li {
+  float: left;
+}
+
+/*The other pages on the menu*/
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 60px;
+  text-decoration: none;
+  background-color: #3a90b5;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li a:hover:not(.menu) {
+  background-color: silver;
+  color: red;
+}
+
+
+
+/*HOME PAGE*/
+
+
+
+/*Home page paragraph*/
+.section-1 {
+	position: relative;
+	top: 380px;
+	left: 60px;
+	width: 60%;
+	height: 400px;
+	text-align: justify;
+	font-size: 24px;
+}
+
+/*About Us subheading*/
+.subheading-1 {
+	position:relative;
+	top: 375px;
+	left: 60px;
+	font-weight: bold;
+}
+
+/*Hot Beans Logo Home Page*/
+.hotbeanslogo {
+	position: relative;
+	bottom: 430px;
+	left: 650px;
+}
+
+/*Hot Beans Building*/
+.HotBeansBuilding {
+	position: relative;
+	bottom: 400px;
+	left: 1175px;
+}
+
+/*Scroll bars*/
+.body {
+	min-height: 100vh;
+	min-width: 100vw;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+
+
+/*COURSES PAGE*/
+
+ 
+
+/*mini logo under the menu*/ 
+
+.minilogo1 { 
+	position: relative; 
+	bottom: 350px; 
+	left: 1600px; 
+} 
+
+/*Course paragraph 1*/
+.section-2 {
+	position: relative;
+	top: 80px;
+	left: 375px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*Course Link 1*/
+.link-1 {
+	position: relative;
+	top: 150px;
+	left: 750px;
+	font-size: 18px;
+}
+
+/*Course Link 2*/
+.link-2 {
+	position: relative;
+	top: 250px;
+	left: 750px;
+	font-size: 18px;
+}
+
+/*Course Link 3*/
+.link-3 {
+	position: relative;
+	top: 350px;
+	left: 770px;
+	font-size: 18px;
+}
+
+/*Course subheading*/
+.subheading-2 {
+	position: relative;
+	top: 50px;
+	left: 750px;
+}
+
+/*Course Link P1*/
+#paragraph-1 {
+position: relative;
+top: 200px;
+left: 225px;
+font-size: 18px;
+}
+
+/*Course link P2*/
+#paragraph-2 {
+	position: relative;
+	top: 300px;
+	left: 490px;
+	font-size: 18px;
+}
+
+/*Course Link P3*/
+#paragraph-3 {
+	position: relative;
+	top: 400px;
+	left: 650px;
+	font-size: 18px;
+}
+
+/*W3school Logo*/
+.w3logo {
+	position: relative;
+	bottom: 179px;
+	left: 925px;
+}
+
+/*W3school Logo 2*/
+.w3logo2 {
+	position: relative;
+	bottom: 35px;
+	left: 925px;
+}
+
+/*W3school Logo 3*/
+.w3logo3 {
+	position: relative;
+	top: 100px;
+	left: 925px;
+}
+
+
+
+/*FORM*/
+
+
+
+.minilogo2 { 
+	position: relative; 
+	bottom: 556px; 
+	left: 1600px; 
+} 
+
+
+/*Form subheading*/
+.application {
+	position: relative;
+	top: 50px;
+	left: 750px;
+}
+
+/*Paragraph 1*/
+.section-5 {
+	position: relative;
+	top: 80px;
+	left: 500px;
+	font-size: 18px;
+}
+
+/*Firstname*/
+.firstname {
+	position: relative;
+	top: 175px;
+	left: 300px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+/*First Name Label*/
+#firstnamelbl {
+	border-style: solid;
+	border-width: medium;
+	border-color: #656666;
+}
+
+
+/*Surname*/
+.surname {
+	position: relative;
+	top: 275px;
+	left: 300px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*Surname Label*/
+#surnamelbl {
+	border-style: solid;
+	border-width: medium;
+	border-color: #656666;
+}
+
+/*Email*/
+.mail {
+	position: relative;
+	top: 375px;
+	left: 300px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*Email Label*/
+#email {
+	border-style: solid;
+	border-width: medium;
+	border-color: #656666;
+}
+
+/*Phone Number*/
+.phone {
+	position: relative;
+	top: 475px;
+	left: 300px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*Phone Number Label*/
+#numberlbl {
+	border-style: solid;
+	border-width: medium;
+	border-color: #656666;
+}
+
+/*Checklist*/
+.checklist {
+	position: relative;
+	top: -28px;
+	left: 850px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*Checklist Sentence*/
+#clparagraph {
+	font-weight: normal;
+}
+
+/*Submit button*/
+.submit {
+	position: relative;
+	top: 100px;
+	left: 850px;
+}
+
+/*Course Experience*/
+.experience {
+	position: relative;
+	top: 0px;
+	left: 850px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*Course Experience Question*/
+#courseparagraph {
+	font-weight: normal;
+}
+
+
+
+/*JOB SPECIFICATION*/
+
+
+
+/*Mini Logo 3*/
+.minilogo3 {
+	position: relative;
+	bottom: 735px;
+	left: 550px;
+}
+
+
+/*Job Heading*/
+.subheading-4 {
+	position: relative;
+	top: 50px;
+	left: 750px;
+}
+
+/*Developer Section*/
+.developer {
+	position: relative;
+	top: 175px;
+	left: 125px;
+}
+
+/*Developer Paragraph*/
+#section-4 {
+	width: 35%;
+	font-size: 19px;
+	text-align: justify;
+}
+
+/*Designer Section*/
+.designer {
+	position: relative;
+	top: -30px;
+	left: 1050px;
+}
+
+/*Designer Paragraph*/
+#section-5 {
+	width: 35%;
+	font-size: 19px;
+	text-align: justify;
+}
+
+/*Analyst Section*/
+.analyst {
+	position: relative;
+	top: 50px;
+	left: 125px;
+}
+
+/*Analyst Paragraph*/
+#section-6 {
+	width: 35%;
+	font-size: 19px;
+	text-align: justify;
+}
+
+/*Identifier Section*/
+.identifier {
+	position: relative;
+	top: -150px;
+	left: 1050px;
+}
+
+/*Identifier Paragraph*/
+#section-7 {
+	width: 35%;
+	font-size: 19px;
+	text-align: justify;
+}
+
+
+
+/*TEAM*/
+
+
+
+/*Mini Logo 4*/
+.minilogo4 {
+	position: relative;
+	bottom: 812px;
+	left: 1600px;
+}
+
+/*Mini Logo 4*/
+.minilogo4 {
+	position: relative;
+	bottom: 812px;
+	left: 1600px;
+}
+
+/*Team Heading*/
+.section-3 {
+	position: relative;
+	top: 50px;
+	left: 750px;
+}
+
+/*Person 1*/
+#person1 {
+	position: relative;
+	top: 75px;
+	left: 50px;
+}
+
+/*person 1 name*/
+#p1 {
+	position: relative;
+	bottom: 190px;
+	left: 125px;
+}
+
+/*Person 2*/
+#person2 {
+	position: relative;
+	top: 75px;
+	left: 350px;
+}
+
+/*Person 2 name*/
+#p2 {
+	position: relative;
+	bottom: 225px;
+	left: 740px;
+}
+
+/*Person 3*/
+#person3 {
+	position: relative;
+	top: 75px;
+	left: 650px;
+}
+
+/*Person 3 name*/
+#p3 {
+	position: relative;
+	bottom: 258px;
+	left: 1335px;
+}
+
+/*Person 4*/
+#person4 {
+	position: relative;
+	top: 425px;
+	left: -862px;
+}
+
+/*Person 4 name*/
+#p4 {
+	position: relative;
+	top: 60px;
+	left: 130px;
+}
+
+/*Person 5*/
+#person5 {
+	position: relative;
+	top: 425px;
+	right: 562px;
+}
+
+/*Person 5 Name*/ 
+#p5 {
+	position: relative;
+	top: 25px;
+	left: 715px;
+}	
+
+/*Person 6*/
+#person6 {
+	position: relative;
+	top: 171px;
+	left: 1258px;
+}
+
+/*Person 6*/
+#p6 {
+	position: relative;
+	bottom: 10px;
+	left: 1345px;
+}	
